@@ -1,0 +1,38 @@
+Strings: entrada e saída 
+
+
+->>> scanf()
+placeholder = %s
+sintaxe
+    scanf("%s, <str>);  NESSE CASO NÃO PRECISO DO E COMERCIAL &
+
+    No formato a cima o usúario não vai conseguir ler dados com espaço
+
+->>>  gets()
+Limitações: Estouro do limite do  vetor
+sintaxe:
+    gets(<string>)
+
+->>>  fgets() 
+último caractere sempre vai ficar reservado ao "\0"
+stdin -> entrada de dados padrão sempre vai ser o teclado
+sintaxe
+    fgets(<string>, <tam.>, stdin)
+
+->>>puts
+Imprime uma string diretamente na teclado
+não admite variáveis de outro tipo
+sintaxe
+    puts(<string>);
+
+fflush(stdin) -> chamar sempre depois de uma entrada
+
+->>> Precisamos usar biblioteca strin.h
+STRING NÃO SE ALTERA COM IGUAL!
+SE ALTERA COM STRCPY(<DESTINO>,<ORIGEM>)
+
+->>> Biblioteca locale.h
+Permite acentos nos nossos programas
+sintaxe
+
+    setlocale(LC_ALL,"Portuguese");

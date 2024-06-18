@@ -1,0 +1,16 @@
+O que é Função?
+
+- função é um sub-programa.
+- trabalhar com módulos é muito mais inteligente.
+- quando o problema é muito complexo, quebramos o mesmo em partes.
+
+sintaxe:
+
+    <tipo> <nome_da_funcao>(<parametros>) {
+        <bloco de comandos>
+        return <informação>;
+    }
+    
+-Tipo de retorno: em c retorno não é obrigatório
+-Parâmetros de entrada
+    dados oferecidos ao chamar a função (nenhum ou vários).
